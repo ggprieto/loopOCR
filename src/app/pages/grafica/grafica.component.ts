@@ -17,19 +17,19 @@ export class GraficaComponent implements OnInit {
     'grafico2': {
       'labels': ['Hombres', 'Mujeres'],
       'data':  [4500, 6000],
-      'type': 'doughnut',
+      'type': 'line',
       'leyenda': 'Entrevistados'
     },
     'grafico3': {
       'labels': ['Si', 'No'],
       'data':  [95, 5],
-      'type': 'doughnut',
+      'type': 'line',
       'leyenda': '¿Le dan gases los frijoles?'
     },
     'grafico4': {
       'labels': ['No', 'Si'],
       'data':  [85, 15],
-      'type': 'doughnut',
+      'type': 'bar',
       'leyenda': '¿Le importa que le den gases?'
     },
   };
